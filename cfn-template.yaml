@@ -1,5 +1,4 @@
-AWSTemplateFormatVersion: "2010-09-09"
-
-Resources:
-  NullResource:
-    Type: AWS::CloudFormation::WaitConditionHandle
+template-file-path: git-sync-deployment-file.yaml
+parameters: {}
+tags:
+  environment: production
