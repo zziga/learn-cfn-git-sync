@@ -1,7 +1,8 @@
 template-file-path: cfn-template.yaml
-parameters:
-  dummy: one
-  another: '2'
+parameters: {}
+# parameters:
+#   dummy: one
+#   another: '2'
 tags:
   environment: test
   id: '2'
